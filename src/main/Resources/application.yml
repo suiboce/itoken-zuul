@@ -1,8 +1,0 @@
-spring:
-  cloud:
-    config:
-      uri: localhost:8080
-      name: zuul
-      label: master
-      profile: dev
-
