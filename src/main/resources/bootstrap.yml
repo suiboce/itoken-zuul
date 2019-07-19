@@ -2,7 +2,7 @@ spring:
   profiles: dev
   cloud:
     config:
-      uri: localhost:8080
+      uri: localhost:8888
       name: zuul
       label: master
       profile: dev
@@ -11,7 +11,7 @@ spring:
   profiles: prod
   cloud:
     config:
-      uri: http://192.168.79.135:8080
+      uri: http://192.168.79.135:8888
       name: zuul
       label: master
       profile: prod
